@@ -1,0 +1,144 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
+.navLink ul{
+    display: flex;
+    list-style: none;
+   
+}
+.navLink ul li{
+padding: 0px 20px;
+}
+.navLink ul li a{
+text-decoration: none;
+color: black;
+}
+
+.navSocial ul {
+    display: flex;
+    
+}
+.navSocial ul a{
+    text-decoration: none;
+    padding-left:  15px;
+}
+.navSocial ul a li{
+    list-style: none;
+    
+}
+/*------------hero----------*/
+.hero{
+    background-image: linear-gradient(45deg,rgba(198, 143, 209, 0.212) 30%,#c374ce 90%);
+    width: 1600px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 120px;
+}
+.heroSecDig{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.heroContan h1{
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 55px;
+    word-spacing: 10px;
+    
+}
+.heroContan h1 span{
+    color: #F34B89;
+    
+}
+.heroContan button{
+    background-color: #F44D8E;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.heroImg img{
+    width: 400px;
+    height: 400px;
+}
+/*--------------our feature------------*/
+.ureFeatureTitle{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    word-spacing: 10px;
+}
+.featureCaadrd{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+.card{
+    display: flex;
+    width: 350px;
+   height:150px;
+   border: 1px solid #F44D8E;
+   padding: 10px 10px;
+}
+.featureLogo{
+    width: 20%;
+}
+.featurDescipt{
+    width: 80%;
+}
+.featurDescipt h3{
+    margin: 0px;
+    padding: 0px;
+}
+.featurDescipt p{
+    text-align: justify;
+}
+/*----------control----------*/
+.control{
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.controlImg{
+    width: 40%;
+}
+.controlContan h4{
+    color: #F34B89;
+    text-transform:uppercase;
+}
+.controlContan h1{
+    font-size: 35px;
+    
+}
+.controlImg img{
+    width: 100%;
+}
+.controlContan{
+    width: 50%;
+    
+}
+.ulDesign{
+    display: flex;
+}
